@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="MyApp Analyzers" ToolsVersion="17.0">
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+    <Rule Id="CS8618" Action="Warning" />
+    <Rule Id="CS1998" Action="Warning" />
+    <Rule Id="CA1305" Action="Warning" />
+    <Rule Id="IDE0005" Action="Error" />
+  </Rules>
+</RuleSet>
