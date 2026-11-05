@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Application.Services
+  commentId: N:MyApp.Application.Services
+  id: MyApp.Application.Services
+  children:
+  - MyApp.Application.Services.CalculatorService
+  - MyApp.Application.Services.EvaluationResult
+  - MyApp.Application.Services.InMemoryCalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Application.Services
+  nameWithType: MyApp.Application.Services
+  fullName: MyApp.Application.Services
+  type: Namespace
+  assemblies:
+  - MyApp.Application
+references:
+- uid: MyApp.Application.Services.EvaluationResult
+  commentId: T:MyApp.Application.Services.EvaluationResult
+  href: MyApp.Application.Services.EvaluationResult.html
+  name: EvaluationResult
+  nameWithType: EvaluationResult
+  fullName: MyApp.Application.Services.EvaluationResult
+- uid: MyApp.Application.Services.CalculatorService
+  commentId: T:MyApp.Application.Services.CalculatorService
+  href: MyApp.Application.Services.CalculatorService.html
+  name: CalculatorService
+  nameWithType: CalculatorService
+  fullName: MyApp.Application.Services.CalculatorService
+- uid: MyApp.Application.Services.InMemoryCalculationHistoryStore
+  commentId: T:MyApp.Application.Services.InMemoryCalculationHistoryStore
+  href: MyApp.Application.Services.InMemoryCalculationHistoryStore.html
+  name: InMemoryCalculationHistoryStore
+  nameWithType: InMemoryCalculationHistoryStore
+  fullName: MyApp.Application.Services.InMemoryCalculationHistoryStore

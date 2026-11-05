@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Exceptions
+  commentId: N:MyApp.Domain.Exceptions
+  id: MyApp.Domain.Exceptions
+  children:
+  - MyApp.Domain.Exceptions.DivisionByZeroException
+  - MyApp.Domain.Exceptions.DomainException
+  - MyApp.Domain.Exceptions.InvalidExpressionException
+  - MyApp.Domain.Exceptions.OverflowException
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Domain.Exceptions
+  nameWithType: MyApp.Domain.Exceptions
+  fullName: MyApp.Domain.Exceptions
+  type: Namespace
+  assemblies:
+  - MyApp.Domain
+references:
+- uid: MyApp.Domain.Exceptions.DivisionByZeroException
+  commentId: T:MyApp.Domain.Exceptions.DivisionByZeroException
+  href: MyApp.Domain.Exceptions.DivisionByZeroException.html
+  name: DivisionByZeroException
+  nameWithType: DivisionByZeroException
+  fullName: MyApp.Domain.Exceptions.DivisionByZeroException
+- uid: MyApp.Domain.Exceptions.DomainException
+  commentId: T:MyApp.Domain.Exceptions.DomainException
+  parent: MyApp.Domain.Exceptions
+  href: MyApp.Domain.Exceptions.DomainException.html
+  name: DomainException
+  nameWithType: DomainException
+  fullName: MyApp.Domain.Exceptions.DomainException
+- uid: MyApp.Domain.Exceptions.InvalidExpressionException
+  commentId: T:MyApp.Domain.Exceptions.InvalidExpressionException
+  href: MyApp.Domain.Exceptions.InvalidExpressionException.html
+  name: InvalidExpressionException
+  nameWithType: InvalidExpressionException
+  fullName: MyApp.Domain.Exceptions.InvalidExpressionException
+- uid: MyApp.Domain.Exceptions.OverflowException
+  commentId: T:MyApp.Domain.Exceptions.OverflowException
+  href: MyApp.Domain.Exceptions.OverflowException.html
+  name: OverflowException
+  nameWithType: OverflowException
+  fullName: MyApp.Domain.Exceptions.OverflowException
+- uid: MyApp.Domain.Exceptions
+  commentId: N:MyApp.Domain.Exceptions
+  href: MyApp.html
+  name: MyApp.Domain.Exceptions
+  nameWithType: MyApp.Domain.Exceptions
+  fullName: MyApp.Domain.Exceptions
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Exceptions
+    name: Exceptions
+    href: MyApp.Domain.Exceptions.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Exceptions
+    name: Exceptions
+    href: MyApp.Domain.Exceptions.html

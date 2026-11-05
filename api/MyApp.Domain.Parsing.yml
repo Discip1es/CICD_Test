@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Parsing
+  commentId: N:MyApp.Domain.Parsing
+  id: MyApp.Domain.Parsing
+  children:
+  - MyApp.Domain.Parsing.ExpressionParser
+  - MyApp.Domain.Parsing.ExpressionTokenizer
+  - MyApp.Domain.Parsing.Token
+  - MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Domain.Parsing
+  nameWithType: MyApp.Domain.Parsing
+  fullName: MyApp.Domain.Parsing
+  type: Namespace
+  assemblies:
+  - MyApp.Domain
+references:
+- uid: MyApp.Domain.Parsing.ExpressionParser
+  commentId: T:MyApp.Domain.Parsing.ExpressionParser
+  href: MyApp.Domain.Parsing.ExpressionParser.html
+  name: ExpressionParser
+  nameWithType: ExpressionParser
+  fullName: MyApp.Domain.Parsing.ExpressionParser
+- uid: MyApp.Domain.Parsing.TokenType
+  commentId: T:MyApp.Domain.Parsing.TokenType
+  parent: MyApp.Domain.Parsing
+  href: MyApp.Domain.Parsing.TokenType.html
+  name: TokenType
+  nameWithType: TokenType
+  fullName: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.Token
+  commentId: T:MyApp.Domain.Parsing.Token
+  href: MyApp.Domain.Parsing.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: MyApp.Domain.Parsing.Token
+- uid: MyApp.Domain.Parsing.ExpressionTokenizer
+  commentId: T:MyApp.Domain.Parsing.ExpressionTokenizer
+  href: MyApp.Domain.Parsing.ExpressionTokenizer.html
+  name: ExpressionTokenizer
+  nameWithType: ExpressionTokenizer
+  fullName: MyApp.Domain.Parsing.ExpressionTokenizer
+- uid: MyApp.Domain.Parsing
+  commentId: N:MyApp.Domain.Parsing
+  href: MyApp.html
+  name: MyApp.Domain.Parsing
+  nameWithType: MyApp.Domain.Parsing
+  fullName: MyApp.Domain.Parsing
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html

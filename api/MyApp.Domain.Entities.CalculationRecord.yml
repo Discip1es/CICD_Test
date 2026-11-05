@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Entities.CalculationRecord
+  commentId: T:MyApp.Domain.Entities.CalculationRecord
+  id: CalculationRecord
+  parent: MyApp.Domain.Entities
+  children:
+  - MyApp.Domain.Entities.CalculationRecord.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  - MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+  - MyApp.Domain.Entities.CalculationRecord.Expression
+  - MyApp.Domain.Entities.CalculationRecord.Id
+  - MyApp.Domain.Entities.CalculationRecord.Result
+  - MyApp.Domain.Entities.CalculationRecord.ToString
+  langs:
+  - csharp
+  - vb
+  name: CalculationRecord
+  nameWithType: CalculationRecord
+  fullName: MyApp.Domain.Entities.CalculationRecord
+  type: Class
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: CalculationRecord
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 7
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  summary: 'A single line in a calculation history: the original expression and its result.'
+  example: []
+  syntax:
+    content: public sealed class CalculationRecord
+    content.vb: Public NotInheritable Class CalculationRecord
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: MyApp.Domain.Entities.CalculationRecord.Id
+  commentId: P:MyApp.Domain.Entities.CalculationRecord.Id
+  id: Id
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CalculationRecord.Id
+  fullName: MyApp.Domain.Entities.CalculationRecord.Id
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Id
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 9
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  syntax:
+    content: public Guid Id { get; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public ReadOnly Property Id As Guid
+  overload: MyApp.Domain.Entities.CalculationRecord.Id*
+- uid: MyApp.Domain.Entities.CalculationRecord.Expression
+  commentId: P:MyApp.Domain.Entities.CalculationRecord.Expression
+  id: Expression
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: CalculationRecord.Expression
+  fullName: MyApp.Domain.Entities.CalculationRecord.Expression
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Expression
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 11
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  syntax:
+    content: public string Expression { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Expression As String
+  overload: MyApp.Domain.Entities.CalculationRecord.Expression*
+- uid: MyApp.Domain.Entities.CalculationRecord.Result
+  commentId: P:MyApp.Domain.Entities.CalculationRecord.Result
+  id: Result
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: CalculationRecord.Result
+  fullName: MyApp.Domain.Entities.CalculationRecord.Result
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Result
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 13
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  syntax:
+    content: public decimal Result { get; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public ReadOnly Property Result As Decimal
+  overload: MyApp.Domain.Entities.CalculationRecord.Result*
+- uid: MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+  commentId: P:MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+  id: CreatedAtUtc
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtUtc
+  nameWithType: CalculationRecord.CreatedAtUtc
+  fullName: MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: CreatedAtUtc
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 15
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  syntax:
+    content: public DateTimeOffset CreatedAtUtc { get; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public ReadOnly Property CreatedAtUtc As DateTimeOffset
+  overload: MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc*
+- uid: MyApp.Domain.Entities.CalculationRecord.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  commentId: M:MyApp.Domain.Entities.CalculationRecord.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  id: '#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)'
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: CalculationRecord(Guid, string, decimal, DateTimeOffset)
+  nameWithType: CalculationRecord.CalculationRecord(Guid, string, decimal, DateTimeOffset)
+  fullName: MyApp.Domain.Entities.CalculationRecord.CalculationRecord(System.Guid, string, decimal, System.DateTimeOffset)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 17
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  syntax:
+    content: public CalculationRecord(Guid id, string expression, decimal result, DateTimeOffset createdAtUtc)
+    parameters:
+    - id: id
+      type: System.Guid
+    - id: expression
+      type: System.String
+    - id: result
+      type: System.Decimal
+    - id: createdAtUtc
+      type: System.DateTimeOffset
+    content.vb: Public Sub New(id As Guid, expression As String, result As Decimal, createdAtUtc As DateTimeOffset)
+  overload: MyApp.Domain.Entities.CalculationRecord.#ctor*
+  nameWithType.vb: CalculationRecord.New(Guid, String, Decimal, DateTimeOffset)
+  fullName.vb: MyApp.Domain.Entities.CalculationRecord.New(System.Guid, String, Decimal, System.DateTimeOffset)
+  name.vb: New(Guid, String, Decimal, DateTimeOffset)
+- uid: MyApp.Domain.Entities.CalculationRecord.ToString
+  commentId: M:MyApp.Domain.Entities.CalculationRecord.ToString
+  id: ToString
+  parent: MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CalculationRecord.ToString()
+  fullName: MyApp.Domain.Entities.CalculationRecord.ToString()
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Domain/Entities/CalculationRecord.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ToString
+    path: src/MyApp.Domain/Entities/CalculationRecord.cs
+    startLine: 30
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Entities
+  summary: Returns a string that represents the current object.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A string that represents the current object.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: MyApp.Domain.Entities.CalculationRecord.ToString*
+references:
+- uid: MyApp.Domain.Entities
+  commentId: N:MyApp.Domain.Entities
+  href: MyApp.html
+  name: MyApp.Domain.Entities
+  nameWithType: MyApp.Domain.Entities
+  fullName: MyApp.Domain.Entities
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MyApp.Domain.Entities.CalculationRecord.Id*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.Id
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord_Id
+  name: Id
+  nameWithType: CalculationRecord.Id
+  fullName: MyApp.Domain.Entities.CalculationRecord.Id
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: MyApp.Domain.Entities.CalculationRecord.Expression*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.Expression
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord_Expression
+  name: Expression
+  nameWithType: CalculationRecord.Expression
+  fullName: MyApp.Domain.Entities.CalculationRecord.Expression
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MyApp.Domain.Entities.CalculationRecord.Result*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.Result
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord_Result
+  name: Result
+  nameWithType: CalculationRecord.Result
+  fullName: MyApp.Domain.Entities.CalculationRecord.Result
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord_CreatedAtUtc
+  name: CreatedAtUtc
+  nameWithType: CalculationRecord.CreatedAtUtc
+  fullName: MyApp.Domain.Entities.CalculationRecord.CreatedAtUtc
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimeoffset
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: MyApp.Domain.Entities.CalculationRecord.#ctor*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.#ctor
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord__ctor_System_Guid_System_String_System_Decimal_System_DateTimeOffset_
+  name: CalculationRecord
+  nameWithType: CalculationRecord.CalculationRecord
+  fullName: MyApp.Domain.Entities.CalculationRecord.CalculationRecord
+  nameWithType.vb: CalculationRecord.New
+  fullName.vb: MyApp.Domain.Entities.CalculationRecord.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: MyApp.Domain.Entities.CalculationRecord.ToString*
+  commentId: Overload:MyApp.Domain.Entities.CalculationRecord.ToString
+  href: MyApp.Domain.Entities.CalculationRecord.html#MyApp_Domain_Entities_CalculationRecord_ToString
+  name: ToString
+  nameWithType: CalculationRecord.ToString
+  fullName: MyApp.Domain.Entities.CalculationRecord.ToString

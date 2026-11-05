@@ -1,0 +1,177 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "CICD_Test | MyAPI",
+    "keywords": "CICD_Test"
+  },
+  "api/MyApp.Api.ApiErrorHandler.html": {
+    "href": "api/MyApp.Api.ApiErrorHandler.html",
+    "title": "Class ApiErrorHandler | MyAPI",
+    "keywords": "Class ApiErrorHandler Namespace MyApp.Api Assembly MyApp.Api.dll Maps domain/application exceptions to RFC 7807 Problem Details responses. public sealed class ApiErrorHandler : IExceptionHandler Inheritance object ApiErrorHandler Implements IExceptionHandler Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ApiErrorHandler(ILogger<ApiErrorHandler>) public ApiErrorHandler(ILogger<ApiErrorHandler> logger) Parameters logger ILogger<ApiErrorHandler> Methods TryHandleAsync(HttpContext, Exception, CancellationToken) Tries to handle the specified exception asynchronously within the ASP.NET Core pipeline. Implementations of this method can provide custom exception-handling logic for different scenarios. public ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken) Parameters httpContext HttpContext The HttpContext for the request. exception Exception The unhandled exception. cancellationToken CancellationToken The cancellation token. Returns ValueTask<bool> A task that represents the asynchronous read operation. The value of its Result property contains the result of the handling operation. true if the exception was handled successfully; otherwise false."
+  },
+  "api/MyApp.Api.Endpoints.CalculatorEndpoints.html": {
+    "href": "api/MyApp.Api.Endpoints.CalculatorEndpoints.html",
+    "title": "Class CalculatorEndpoints | MyAPI",
+    "keywords": "Class CalculatorEndpoints Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll Minimal-API endpoints for the calculator engine. public static class CalculatorEndpoints Inheritance object CalculatorEndpoints Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods MapCalculatorEndpoints(IEndpointRouteBuilder) public static IEndpointRouteBuilder MapCalculatorEndpoints(this IEndpointRouteBuilder app) Parameters app IEndpointRouteBuilder Returns IEndpointRouteBuilder"
+  },
+  "api/MyApp.Api.Endpoints.EvaluateRequest.html": {
+    "href": "api/MyApp.Api.Endpoints.EvaluateRequest.html",
+    "title": "Class EvaluateRequest | MyAPI",
+    "keywords": "Class EvaluateRequest Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll public sealed record EvaluateRequest : IEquatable<EvaluateRequest> Inheritance object EvaluateRequest Implements IEquatable<EvaluateRequest> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors EvaluateRequest(string) public EvaluateRequest(string Expression) Parameters Expression string Properties Expression public string Expression { get; init; } Property Value string"
+  },
+  "api/MyApp.Api.Endpoints.EvaluateResponse.html": {
+    "href": "api/MyApp.Api.Endpoints.EvaluateResponse.html",
+    "title": "Class EvaluateResponse | MyAPI",
+    "keywords": "Class EvaluateResponse Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll public sealed record EvaluateResponse : IEquatable<EvaluateResponse> Inheritance object EvaluateResponse Implements IEquatable<EvaluateResponse> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors EvaluateResponse(string, decimal, double) public EvaluateResponse(string Expression, decimal Result, double ElapsedMs) Parameters Expression string Result decimal ElapsedMs double Properties ElapsedMs public double ElapsedMs { get; init; } Property Value double Expression public string Expression { get; init; } Property Value string Result public decimal Result { get; init; } Property Value decimal"
+  },
+  "api/MyApp.Api.Endpoints.HistoryItem.html": {
+    "href": "api/MyApp.Api.Endpoints.HistoryItem.html",
+    "title": "Class HistoryItem | MyAPI",
+    "keywords": "Class HistoryItem Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll public sealed record HistoryItem : IEquatable<HistoryItem> Inheritance object HistoryItem Implements IEquatable<HistoryItem> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors HistoryItem(Guid, string, decimal, DateTimeOffset) public HistoryItem(Guid Id, string Expression, decimal Result, DateTimeOffset CreatedAtUtc) Parameters Id Guid Expression string Result decimal CreatedAtUtc DateTimeOffset Properties CreatedAtUtc public DateTimeOffset CreatedAtUtc { get; init; } Property Value DateTimeOffset Expression public string Expression { get; init; } Property Value string Id public Guid Id { get; init; } Property Value Guid Result public decimal Result { get; init; } Property Value decimal"
+  },
+  "api/MyApp.Api.Endpoints.TokenDto.html": {
+    "href": "api/MyApp.Api.Endpoints.TokenDto.html",
+    "title": "Class TokenDto | MyAPI",
+    "keywords": "Class TokenDto Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll public sealed record TokenDto : IEquatable<TokenDto> Inheritance object TokenDto Implements IEquatable<TokenDto> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors TokenDto(string, decimal, int) public TokenDto(string Type, decimal Value, int Position) Parameters Type string Value decimal Position int Properties Position public int Position { get; init; } Property Value int Type public string Type { get; init; } Property Value string Value public decimal Value { get; init; } Property Value decimal"
+  },
+  "api/MyApp.Api.Endpoints.TokenizeRequest.html": {
+    "href": "api/MyApp.Api.Endpoints.TokenizeRequest.html",
+    "title": "Class TokenizeRequest | MyAPI",
+    "keywords": "Class TokenizeRequest Namespace MyApp.Api.Endpoints Assembly MyApp.Api.dll public sealed record TokenizeRequest : IEquatable<TokenizeRequest> Inheritance object TokenizeRequest Implements IEquatable<TokenizeRequest> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors TokenizeRequest(string) public TokenizeRequest(string Expression) Parameters Expression string Properties Expression public string Expression { get; init; } Property Value string"
+  },
+  "api/MyApp.Api.Endpoints.html": {
+    "href": "api/MyApp.Api.Endpoints.html",
+    "title": "Namespace MyApp.Api.Endpoints | MyAPI",
+    "keywords": "Namespace MyApp.Api.Endpoints Classes CalculatorEndpoints Minimal-API endpoints for the calculator engine. EvaluateRequest EvaluateResponse HistoryItem TokenDto TokenizeRequest"
+  },
+  "api/MyApp.Api.html": {
+    "href": "api/MyApp.Api.html",
+    "title": "Namespace MyApp.Api | MyAPI",
+    "keywords": "Namespace MyApp.Api Classes ApiErrorHandler Maps domain/application exceptions to RFC 7807 Problem Details responses."
+  },
+  "api/MyApp.Application.Abstractions.ICalculationHistoryStore.html": {
+    "href": "api/MyApp.Application.Abstractions.ICalculationHistoryStore.html",
+    "title": "Interface ICalculationHistoryStore | MyAPI",
+    "keywords": "Interface ICalculationHistoryStore Namespace MyApp.Application.Abstractions Assembly MyApp.Application.dll Storage-agnostic contract for persisting calculation history. Implemented in-memory for tests/dev, could be backed by a DB later. public interface ICalculationHistoryStore Properties Count int Count { get; } Property Value int Methods AddAsync(CalculationRecord, CancellationToken) Task AddAsync(CalculationRecord record, CancellationToken cancellationToken = default) Parameters record CalculationRecord cancellationToken CancellationToken Returns Task ClearAsync(CancellationToken) Task ClearAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task GetAllAsync(CancellationToken) Task<IReadOnlyList<CalculationRecord>> GetAllAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task<IReadOnlyList<CalculationRecord>>"
+  },
+  "api/MyApp.Application.Abstractions.html": {
+    "href": "api/MyApp.Application.Abstractions.html",
+    "title": "Namespace MyApp.Application.Abstractions | MyAPI",
+    "keywords": "Namespace MyApp.Application.Abstractions Interfaces ICalculationHistoryStore Storage-agnostic contract for persisting calculation history. Implemented in-memory for tests/dev, could be backed by a DB later."
+  },
+  "api/MyApp.Application.Services.CalculatorService.html": {
+    "href": "api/MyApp.Application.Services.CalculatorService.html",
+    "title": "Class CalculatorService | MyAPI",
+    "keywords": "Class CalculatorService Namespace MyApp.Application.Services Assembly MyApp.Application.dll Application service orchestrating expression evaluation and history recording. All domain errors propagate as exceptions; the presentation layer maps them to user-friendly responses (HTTP problem details / CLI messages). public sealed class CalculatorService Inheritance object CalculatorService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors CalculatorService(ICalculationHistoryStore, TimeProvider?) public CalculatorService(ICalculationHistoryStore history, TimeProvider? timeProvider = null) Parameters history ICalculationHistoryStore timeProvider TimeProvider Methods ClearHistoryAsync(CancellationToken) public Task ClearHistoryAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task EvaluateAsync(string, bool, CancellationToken) public Task<EvaluationResult> EvaluateAsync(string expression, bool recordToHistory = true, CancellationToken cancellationToken = default) Parameters expression string recordToHistory bool cancellationToken CancellationToken Returns Task<EvaluationResult> GetHistoryAsync(CancellationToken) public Task<IReadOnlyList<CalculationRecord>> GetHistoryAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task<IReadOnlyList<CalculationRecord>>"
+  },
+  "api/MyApp.Application.Services.EvaluationResult.html": {
+    "href": "api/MyApp.Application.Services.EvaluationResult.html",
+    "title": "Class EvaluationResult | MyAPI",
+    "keywords": "Class EvaluationResult Namespace MyApp.Application.Services Assembly MyApp.Application.dll public sealed record EvaluationResult : IEquatable<EvaluationResult> Inheritance object EvaluationResult Implements IEquatable<EvaluationResult> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors EvaluationResult(string, decimal, TimeSpan) public EvaluationResult(string Expression, decimal Result, TimeSpan Elapsed) Parameters Expression string Result decimal Elapsed TimeSpan Properties Elapsed public TimeSpan Elapsed { get; init; } Property Value TimeSpan Expression public string Expression { get; init; } Property Value string Result public decimal Result { get; init; } Property Value decimal"
+  },
+  "api/MyApp.Application.Services.InMemoryCalculationHistoryStore.html": {
+    "href": "api/MyApp.Application.Services.InMemoryCalculationHistoryStore.html",
+    "title": "Class InMemoryCalculationHistoryStore | MyAPI",
+    "keywords": "Class InMemoryCalculationHistoryStore Namespace MyApp.Application.Services Assembly MyApp.Application.dll Thread-safe in-memory implementation of ICalculationHistoryStore with a bounded capacity (oldest entries are evicted FIFO). public sealed class InMemoryCalculationHistoryStore : ICalculationHistoryStore Inheritance object InMemoryCalculationHistoryStore Implements ICalculationHistoryStore Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors InMemoryCalculationHistoryStore(int) public InMemoryCalculationHistoryStore(int capacity = 1000) Parameters capacity int Properties Count public int Count { get; } Property Value int Methods AddAsync(CalculationRecord, CancellationToken) public Task AddAsync(CalculationRecord record, CancellationToken cancellationToken = default) Parameters record CalculationRecord cancellationToken CancellationToken Returns Task ClearAsync(CancellationToken) public Task ClearAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task GetAllAsync(CancellationToken) public Task<IReadOnlyList<CalculationRecord>> GetAllAsync(CancellationToken cancellationToken = default) Parameters cancellationToken CancellationToken Returns Task<IReadOnlyList<CalculationRecord>>"
+  },
+  "api/MyApp.Application.Services.html": {
+    "href": "api/MyApp.Application.Services.html",
+    "title": "Namespace MyApp.Application.Services | MyAPI",
+    "keywords": "Namespace MyApp.Application.Services Classes CalculatorService Application service orchestrating expression evaluation and history recording. All domain errors propagate as exceptions; the presentation layer maps them to user-friendly responses (HTTP problem details / CLI messages). EvaluationResult InMemoryCalculationHistoryStore Thread-safe in-memory implementation of ICalculationHistoryStore with a bounded capacity (oldest entries are evicted FIFO)."
+  },
+  "api/MyApp.Cli.Program.html": {
+    "href": "api/MyApp.Cli.Program.html",
+    "title": "Class Program | MyAPI",
+    "keywords": "Class Program Namespace MyApp.Cli Assembly MyApp.dll Interactive REPL + one-shot evaluation for the calculator engine. Exit codes: 0 = success, 1 = domain error, 2 = usage error. public static class Program Inheritance object Program Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Main(string[]) public static Task<int> Main(string[] args) Parameters args string[] Returns Task<int>"
+  },
+  "api/MyApp.Cli.html": {
+    "href": "api/MyApp.Cli.html",
+    "title": "Namespace MyApp.Cli | MyAPI",
+    "keywords": "Namespace MyApp.Cli Classes Program Interactive REPL + one-shot evaluation for the calculator engine. Exit codes: 0 = success, 1 = domain error, 2 = usage error."
+  },
+  "api/MyApp.Domain.Entities.CalculationRecord.html": {
+    "href": "api/MyApp.Domain.Entities.CalculationRecord.html",
+    "title": "Class CalculationRecord | MyAPI",
+    "keywords": "Class CalculationRecord Namespace MyApp.Domain.Entities Assembly MyApp.Domain.dll A single line in a calculation history: the original expression and its result. public sealed class CalculationRecord Inheritance object CalculationRecord Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) Constructors CalculationRecord(Guid, string, decimal, DateTimeOffset) public CalculationRecord(Guid id, string expression, decimal result, DateTimeOffset createdAtUtc) Parameters id Guid expression string result decimal createdAtUtc DateTimeOffset Properties CreatedAtUtc public DateTimeOffset CreatedAtUtc { get; } Property Value DateTimeOffset Expression public string Expression { get; } Property Value string Id public Guid Id { get; } Property Value Guid Result public decimal Result { get; } Property Value decimal Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/MyApp.Domain.Entities.html": {
+    "href": "api/MyApp.Domain.Entities.html",
+    "title": "Namespace MyApp.Domain.Entities | MyAPI",
+    "keywords": "Namespace MyApp.Domain.Entities Classes CalculationRecord A single line in a calculation history: the original expression and its result."
+  },
+  "api/MyApp.Domain.Exceptions.DivisionByZeroException.html": {
+    "href": "api/MyApp.Domain.Exceptions.DivisionByZeroException.html",
+    "title": "Class DivisionByZeroException | MyAPI",
+    "keywords": "Class DivisionByZeroException Namespace MyApp.Domain.Exceptions Assembly MyApp.Domain.dll public sealed class DivisionByZeroException : DomainException, ISerializable Inheritance object Exception DomainException DivisionByZeroException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite object.Equals(object) object.Equals(object, object) object.GetHashCode() object.ReferenceEquals(object, object) Constructors DivisionByZeroException() public DivisionByZeroException() DivisionByZeroException(string, string) public DivisionByZeroException(string dividend, string divisor) Parameters dividend string divisor string"
+  },
+  "api/MyApp.Domain.Exceptions.DomainException.html": {
+    "href": "api/MyApp.Domain.Exceptions.DomainException.html",
+    "title": "Class DomainException | MyAPI",
+    "keywords": "Class DomainException Namespace MyApp.Domain.Exceptions Assembly MyApp.Domain.dll Базовое исключение доменного слоя. public class DomainException : Exception, ISerializable Inheritance object Exception DomainException Implements ISerializable Derived DivisionByZeroException InvalidExpressionException OverflowException Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite Exception.SerializeObjectState object.Equals(object) object.Equals(object, object) object.GetHashCode() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors DomainException(string) public DomainException(string message) Parameters message string DomainException(string, Exception) public DomainException(string message, Exception innerException) Parameters message string innerException Exception"
+  },
+  "api/MyApp.Domain.Exceptions.InvalidExpressionException.html": {
+    "href": "api/MyApp.Domain.Exceptions.InvalidExpressionException.html",
+    "title": "Class InvalidExpressionException | MyAPI",
+    "keywords": "Class InvalidExpressionException Namespace MyApp.Domain.Exceptions Assembly MyApp.Domain.dll public sealed class InvalidExpressionException : DomainException, ISerializable Inheritance object Exception DomainException InvalidExpressionException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite object.Equals(object) object.Equals(object, object) object.GetHashCode() object.ReferenceEquals(object, object) Constructors InvalidExpressionException(string, int) public InvalidExpressionException(string message, int position = -1) Parameters message string position int Properties Position public int Position { get; } Property Value int"
+  },
+  "api/MyApp.Domain.Exceptions.OverflowException.html": {
+    "href": "api/MyApp.Domain.Exceptions.OverflowException.html",
+    "title": "Class OverflowException | MyAPI",
+    "keywords": "Class OverflowException Namespace MyApp.Domain.Exceptions Assembly MyApp.Domain.dll public sealed class OverflowException : DomainException, ISerializable Inheritance object Exception DomainException OverflowException Implements ISerializable Inherited Members Exception.GetBaseException() Exception.GetType() Exception.ToString() Exception.Data Exception.HelpLink Exception.HResult Exception.InnerException Exception.Message Exception.Source Exception.StackTrace Exception.TargetSite object.Equals(object) object.Equals(object, object) object.GetHashCode() object.ReferenceEquals(object, object) Constructors OverflowException(string) public OverflowException(string operation) Parameters operation string"
+  },
+  "api/MyApp.Domain.Exceptions.html": {
+    "href": "api/MyApp.Domain.Exceptions.html",
+    "title": "Namespace MyApp.Domain.Exceptions | MyAPI",
+    "keywords": "Namespace MyApp.Domain.Exceptions Classes DivisionByZeroException DomainException Базовое исключение доменного слоя. InvalidExpressionException OverflowException"
+  },
+  "api/MyApp.Domain.Parsing.ExpressionParser.html": {
+    "href": "api/MyApp.Domain.Parsing.ExpressionParser.html",
+    "title": "Class ExpressionParser | MyAPI",
+    "keywords": "Class ExpressionParser Namespace MyApp.Domain.Parsing Assembly MyApp.Domain.dll Recursive-descent parser + evaluator for arithmetic expressions. Grammar: expression := term (('+' | '-') term)* term := factorWithPower (('' | '/' | '%') factorWithPower) factorWithPower := atom ('^' factorWithPower)? // right-associative power atom := ['+' | '-'] (number | '(' expression ')') Overflow in any operation raises OverflowException. public sealed class ExpressionParser Inheritance object ExpressionParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ExpressionParser(IReadOnlyList<Token>) public ExpressionParser(IReadOnlyList<Token> tokens) Parameters tokens IReadOnlyList<Token> Methods Evaluate(string) public static decimal Evaluate(string expression) Parameters expression string Returns decimal ParseAndExpectEnd() public decimal ParseAndExpectEnd() Returns decimal"
+  },
+  "api/MyApp.Domain.Parsing.ExpressionTokenizer.html": {
+    "href": "api/MyApp.Domain.Parsing.ExpressionTokenizer.html",
+    "title": "Class ExpressionTokenizer | MyAPI",
+    "keywords": "Class ExpressionTokenizer Namespace MyApp.Domain.Parsing Assembly MyApp.Domain.dll Converts an arithmetic expression into a stream of tokens. Supports numbers (integer/decimal/exponent), + - * / % ^ and parentheses. public sealed class ExpressionTokenizer Inheritance object ExpressionTokenizer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ExpressionTokenizer(string) public ExpressionTokenizer(string input) Parameters input string Methods Tokenize() public IReadOnlyList<Token> Tokenize() Returns IReadOnlyList<Token>"
+  },
+  "api/MyApp.Domain.Parsing.Token.html": {
+    "href": "api/MyApp.Domain.Parsing.Token.html",
+    "title": "Struct Token | MyAPI",
+    "keywords": "Struct Token Namespace MyApp.Domain.Parsing Assembly MyApp.Domain.dll public readonly record struct Token : IEquatable<Token> Implements IEquatable<Token> Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors Token(TokenType, decimal, int) public Token(TokenType Type, decimal Value, int Position) Parameters Type TokenType Value decimal Position int Properties Position public int Position { get; init; } Property Value int Type public TokenType Type { get; init; } Property Value TokenType Value public decimal Value { get; init; } Property Value decimal"
+  },
+  "api/MyApp.Domain.Parsing.TokenType.html": {
+    "href": "api/MyApp.Domain.Parsing.TokenType.html",
+    "title": "Enum TokenType | MyAPI",
+    "keywords": "Enum TokenType Namespace MyApp.Domain.Parsing Assembly MyApp.Domain.dll public enum TokenType Fields Divide = 4 End = 9 LParen = 7 Minus = 2 Modulo = 5 Multiply = 3 Number = 0 Plus = 1 Power = 6 RParen = 8"
+  },
+  "api/MyApp.Domain.Parsing.html": {
+    "href": "api/MyApp.Domain.Parsing.html",
+    "title": "Namespace MyApp.Domain.Parsing | MyAPI",
+    "keywords": "Namespace MyApp.Domain.Parsing Classes ExpressionParser Recursive-descent parser + evaluator for arithmetic expressions. Grammar: expression := term (('+' | '-') term)* term := factorWithPower (('' | '/' | '%') factorWithPower) factorWithPower := atom ('^' factorWithPower)? // right-associative power atom := ['+' | '-'] (number | '(' expression ')') Overflow in any operation raises OverflowException. ExpressionTokenizer Converts an arithmetic expression into a stream of tokens. Supports numbers (integer/decimal/exponent), + - * / % ^ and parentheses. Structs Token Enums TokenType"
+  },
+  "api/MyApp.Domain.ValueObjects.Money.html": {
+    "href": "api/MyApp.Domain.ValueObjects.Money.html",
+    "title": "Struct Money | MyAPI",
+    "keywords": "Struct Money Namespace MyApp.Domain.ValueObjects Assembly MyApp.Domain.dll Immutable value object, wrapping a decimal with explicit parsing/formatting rules and arithmetic that reports domain errors. public readonly struct Money : IEquatable<Money>, IComparable<Money> Implements IEquatable<Money> IComparable<Money> Inherited Members object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors Money(decimal) public Money(decimal amount) Parameters amount decimal Fields Zero public static readonly Money Zero Field Value Money Properties Amount public decimal Amount { get; } Property Value decimal Methods Add(Money) public Money Add(Money other) Parameters other Money Returns Money CompareTo(Money) Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. public int CompareTo(Money other) Parameters other Money An object to compare with this instance. Returns int A value that indicates the relative order of the objects being compared. The return value has these meanings: Value Meaning Less than zero This instance precedes other in the sort order. Zero This instance occurs in the same position in the sort order as other. Greater than zero This instance follows other in the sort order. Divide(decimal) public Money Divide(decimal divisor) Parameters divisor decimal Returns Money Equals(Money) Indicates whether the current object is equal to another object of the same type. public bool Equals(Money other) Parameters other Money An object to compare with this object. Returns bool true if the current object is equal to the other parameter; otherwise, false. Equals(object?) Indicates whether this instance and a specified object are equal. public override bool Equals(object? obj) Parameters obj object The object to compare with the current instance. Returns bool true if obj and this instance are the same type and represent the same value; otherwise, false. GetHashCode() Returns the hash code for this instance. public override int GetHashCode() Returns int A 32-bit signed integer that is the hash code for this instance. Multiply(decimal) public Money Multiply(decimal factor) Parameters factor decimal Returns Money Parse(string) public static Money Parse(string input) Parameters input string Returns Money Subtract(Money) public Money Subtract(Money other) Parameters other Money Returns Money ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name. TryParse(string?, out Money) public static bool TryParse(string? input, out Money money) Parameters input string money Money Returns bool Operators operator ==(Money, Money) public static bool operator ==(Money left, Money right) Parameters left Money right Money Returns bool operator >(Money, Money) public static bool operator >(Money left, Money right) Parameters left Money right Money Returns bool operator !=(Money, Money) public static bool operator !=(Money left, Money right) Parameters left Money right Money Returns bool operator <(Money, Money) public static bool operator <(Money left, Money right) Parameters left Money right Money Returns bool"
+  },
+  "api/MyApp.Domain.ValueObjects.html": {
+    "href": "api/MyApp.Domain.ValueObjects.html",
+    "title": "Namespace MyApp.Domain.ValueObjects | MyAPI",
+    "keywords": "Namespace MyApp.Domain.ValueObjects Structs Money Immutable value object, wrapping a decimal with explicit parsing/formatting rules and arithmetic that reports domain errors."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | MyAPI",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | MyAPI",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | MyAPI",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

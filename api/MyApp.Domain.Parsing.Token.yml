@@ -1,0 +1,529 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Parsing.Token
+  commentId: T:MyApp.Domain.Parsing.Token
+  id: Token
+  parent: MyApp.Domain.Parsing
+  children:
+  - MyApp.Domain.Parsing.Token.#ctor(MyApp.Domain.Parsing.TokenType,System.Decimal,System.Int32)
+  - MyApp.Domain.Parsing.Token.Position
+  - MyApp.Domain.Parsing.Token.Type
+  - MyApp.Domain.Parsing.Token.Value
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: Token
+  fullName: MyApp.Domain.Parsing.Token
+  type: Struct
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Token
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 19
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: 'public readonly record struct Token : IEquatable<Token>'
+    content.vb: Public Structure Token Implements IEquatable(Of Token)
+  implements:
+  - System.IEquatable{MyApp.Domain.Parsing.Token}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: MyApp.Domain.Parsing.Token.#ctor(MyApp.Domain.Parsing.TokenType,System.Decimal,System.Int32)
+  commentId: M:MyApp.Domain.Parsing.Token.#ctor(MyApp.Domain.Parsing.TokenType,System.Decimal,System.Int32)
+  id: '#ctor(MyApp.Domain.Parsing.TokenType,System.Decimal,System.Int32)'
+  parent: MyApp.Domain.Parsing.Token
+  langs:
+  - csharp
+  - vb
+  name: Token(TokenType, decimal, int)
+  nameWithType: Token.Token(TokenType, decimal, int)
+  fullName: MyApp.Domain.Parsing.Token.Token(MyApp.Domain.Parsing.TokenType, decimal, int)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 19
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public Token(TokenType Type, decimal Value, int Position)
+    parameters:
+    - id: Type
+      type: MyApp.Domain.Parsing.TokenType
+    - id: Value
+      type: System.Decimal
+    - id: Position
+      type: System.Int32
+    content.vb: Public Sub New(Type As TokenType, Value As Decimal, Position As Integer)
+  overload: MyApp.Domain.Parsing.Token.#ctor*
+  nameWithType.vb: Token.New(TokenType, Decimal, Integer)
+  fullName.vb: MyApp.Domain.Parsing.Token.New(MyApp.Domain.Parsing.TokenType, Decimal, Integer)
+  name.vb: New(TokenType, Decimal, Integer)
+- uid: MyApp.Domain.Parsing.Token.Type
+  commentId: P:MyApp.Domain.Parsing.Token.Type
+  id: Type
+  parent: MyApp.Domain.Parsing.Token
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Token.Type
+  fullName: MyApp.Domain.Parsing.Token.Type
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Type
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 19
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public TokenType Type { get; init; }
+    parameters: []
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+    content.vb: Public Property Type As TokenType
+  overload: MyApp.Domain.Parsing.Token.Type*
+- uid: MyApp.Domain.Parsing.Token.Value
+  commentId: P:MyApp.Domain.Parsing.Token.Value
+  id: Value
+  parent: MyApp.Domain.Parsing.Token
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Token.Value
+  fullName: MyApp.Domain.Parsing.Token.Value
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Value
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 19
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public decimal Value { get; init; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Value As Decimal
+  overload: MyApp.Domain.Parsing.Token.Value*
+- uid: MyApp.Domain.Parsing.Token.Position
+  commentId: P:MyApp.Domain.Parsing.Token.Position
+  id: Position
+  parent: MyApp.Domain.Parsing.Token
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Token.Position
+  fullName: MyApp.Domain.Parsing.Token.Position
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Position
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 19
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public int Position { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Position As Integer
+  overload: MyApp.Domain.Parsing.Token.Position*
+references:
+- uid: MyApp.Domain.Parsing
+  commentId: N:MyApp.Domain.Parsing
+  href: MyApp.html
+  name: MyApp.Domain.Parsing
+  nameWithType: MyApp.Domain.Parsing
+  fullName: MyApp.Domain.Parsing
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+- uid: System.IEquatable{MyApp.Domain.Parsing.Token}
+  commentId: T:System.IEquatable{MyApp.Domain.Parsing.Token}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Token>
+  nameWithType: IEquatable<Token>
+  fullName: System.IEquatable<MyApp.Domain.Parsing.Token>
+  nameWithType.vb: IEquatable(Of Token)
+  fullName.vb: System.IEquatable(Of MyApp.Domain.Parsing.Token)
+  name.vb: IEquatable(Of Token)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: MyApp.Domain.Parsing.Token
+    name: Token
+    href: MyApp.Domain.Parsing.Token.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Domain.Parsing.Token
+    name: Token
+    href: MyApp.Domain.Parsing.Token.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: MyApp.Domain.Parsing.Token.#ctor*
+  commentId: Overload:MyApp.Domain.Parsing.Token.#ctor
+  href: MyApp.Domain.Parsing.Token.html#MyApp_Domain_Parsing_Token__ctor_MyApp_Domain_Parsing_TokenType_System_Decimal_System_Int32_
+  name: Token
+  nameWithType: Token.Token
+  fullName: MyApp.Domain.Parsing.Token.Token
+  nameWithType.vb: Token.New
+  fullName.vb: MyApp.Domain.Parsing.Token.New
+  name.vb: New
+- uid: MyApp.Domain.Parsing.TokenType
+  commentId: T:MyApp.Domain.Parsing.TokenType
+  parent: MyApp.Domain.Parsing
+  href: MyApp.Domain.Parsing.TokenType.html
+  name: TokenType
+  nameWithType: TokenType
+  fullName: MyApp.Domain.Parsing.TokenType
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: MyApp.Domain.Parsing.Token.Type*
+  commentId: Overload:MyApp.Domain.Parsing.Token.Type
+  href: MyApp.Domain.Parsing.Token.html#MyApp_Domain_Parsing_Token_Type
+  name: Type
+  nameWithType: Token.Type
+  fullName: MyApp.Domain.Parsing.Token.Type
+- uid: MyApp.Domain.Parsing.Token.Value*
+  commentId: Overload:MyApp.Domain.Parsing.Token.Value
+  href: MyApp.Domain.Parsing.Token.html#MyApp_Domain_Parsing_Token_Value
+  name: Value
+  nameWithType: Token.Value
+  fullName: MyApp.Domain.Parsing.Token.Value
+- uid: MyApp.Domain.Parsing.Token.Position*
+  commentId: Overload:MyApp.Domain.Parsing.Token.Position
+  href: MyApp.Domain.Parsing.Token.html#MyApp_Domain_Parsing_Token_Position
+  name: Position
+  nameWithType: Token.Position
+  fullName: MyApp.Domain.Parsing.Token.Position

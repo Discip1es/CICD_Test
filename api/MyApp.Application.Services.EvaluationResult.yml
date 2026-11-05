@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Application.Services.EvaluationResult
+  commentId: T:MyApp.Application.Services.EvaluationResult
+  id: EvaluationResult
+  parent: MyApp.Application.Services
+  children:
+  - MyApp.Application.Services.EvaluationResult.#ctor(System.String,System.Decimal,System.TimeSpan)
+  - MyApp.Application.Services.EvaluationResult.Elapsed
+  - MyApp.Application.Services.EvaluationResult.Expression
+  - MyApp.Application.Services.EvaluationResult.Result
+  langs:
+  - csharp
+  - vb
+  name: EvaluationResult
+  nameWithType: EvaluationResult
+  fullName: MyApp.Application.Services.EvaluationResult
+  type: Class
+  source:
+    remote:
+      path: src/MyApp.Application/Services/CalculatorService.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: EvaluationResult
+    path: src/MyApp.Application/Services/CalculatorService.cs
+    startLine: 7
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Services
+  syntax:
+    content: 'public sealed record EvaluationResult : IEquatable<EvaluationResult>'
+    content.vb: Public NotInheritable Class EvaluationResult Implements IEquatable(Of EvaluationResult)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{MyApp.Application.Services.EvaluationResult}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MyApp.Application.Services.EvaluationResult.#ctor(System.String,System.Decimal,System.TimeSpan)
+  commentId: M:MyApp.Application.Services.EvaluationResult.#ctor(System.String,System.Decimal,System.TimeSpan)
+  id: '#ctor(System.String,System.Decimal,System.TimeSpan)'
+  parent: MyApp.Application.Services.EvaluationResult
+  langs:
+  - csharp
+  - vb
+  name: EvaluationResult(string, decimal, TimeSpan)
+  nameWithType: EvaluationResult.EvaluationResult(string, decimal, TimeSpan)
+  fullName: MyApp.Application.Services.EvaluationResult.EvaluationResult(string, decimal, System.TimeSpan)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Application/Services/CalculatorService.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Application/Services/CalculatorService.cs
+    startLine: 7
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Services
+  syntax:
+    content: public EvaluationResult(string Expression, decimal Result, TimeSpan Elapsed)
+    parameters:
+    - id: Expression
+      type: System.String
+    - id: Result
+      type: System.Decimal
+    - id: Elapsed
+      type: System.TimeSpan
+    content.vb: Public Sub New(Expression As String, Result As Decimal, Elapsed As TimeSpan)
+  overload: MyApp.Application.Services.EvaluationResult.#ctor*
+  nameWithType.vb: EvaluationResult.New(String, Decimal, TimeSpan)
+  fullName.vb: MyApp.Application.Services.EvaluationResult.New(String, Decimal, System.TimeSpan)
+  name.vb: New(String, Decimal, TimeSpan)
+- uid: MyApp.Application.Services.EvaluationResult.Expression
+  commentId: P:MyApp.Application.Services.EvaluationResult.Expression
+  id: Expression
+  parent: MyApp.Application.Services.EvaluationResult
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: EvaluationResult.Expression
+  fullName: MyApp.Application.Services.EvaluationResult.Expression
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Application/Services/CalculatorService.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Expression
+    path: src/MyApp.Application/Services/CalculatorService.cs
+    startLine: 8
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Services
+  syntax:
+    content: public string Expression { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Expression As String
+  overload: MyApp.Application.Services.EvaluationResult.Expression*
+- uid: MyApp.Application.Services.EvaluationResult.Result
+  commentId: P:MyApp.Application.Services.EvaluationResult.Result
+  id: Result
+  parent: MyApp.Application.Services.EvaluationResult
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: EvaluationResult.Result
+  fullName: MyApp.Application.Services.EvaluationResult.Result
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Application/Services/CalculatorService.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Result
+    path: src/MyApp.Application/Services/CalculatorService.cs
+    startLine: 9
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Services
+  syntax:
+    content: public decimal Result { get; init; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Result As Decimal
+  overload: MyApp.Application.Services.EvaluationResult.Result*
+- uid: MyApp.Application.Services.EvaluationResult.Elapsed
+  commentId: P:MyApp.Application.Services.EvaluationResult.Elapsed
+  id: Elapsed
+  parent: MyApp.Application.Services.EvaluationResult
+  langs:
+  - csharp
+  - vb
+  name: Elapsed
+  nameWithType: EvaluationResult.Elapsed
+  fullName: MyApp.Application.Services.EvaluationResult.Elapsed
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Application/Services/CalculatorService.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Elapsed
+    path: src/MyApp.Application/Services/CalculatorService.cs
+    startLine: 10
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Services
+  syntax:
+    content: public TimeSpan Elapsed { get; init; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property Elapsed As TimeSpan
+  overload: MyApp.Application.Services.EvaluationResult.Elapsed*
+references:
+- uid: MyApp.Application.Services
+  commentId: N:MyApp.Application.Services
+  href: MyApp.html
+  name: MyApp.Application.Services
+  nameWithType: MyApp.Application.Services
+  fullName: MyApp.Application.Services
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Services
+    name: Services
+    href: MyApp.Application.Services.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Services
+    name: Services
+    href: MyApp.Application.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{MyApp.Application.Services.EvaluationResult}
+  commentId: T:System.IEquatable{MyApp.Application.Services.EvaluationResult}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<EvaluationResult>
+  nameWithType: IEquatable<EvaluationResult>
+  fullName: System.IEquatable<MyApp.Application.Services.EvaluationResult>
+  nameWithType.vb: IEquatable(Of EvaluationResult)
+  fullName.vb: System.IEquatable(Of MyApp.Application.Services.EvaluationResult)
+  name.vb: IEquatable(Of EvaluationResult)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: MyApp.Application.Services.EvaluationResult
+    name: EvaluationResult
+    href: MyApp.Application.Services.EvaluationResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Application.Services.EvaluationResult
+    name: EvaluationResult
+    href: MyApp.Application.Services.EvaluationResult.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MyApp.Application.Services.EvaluationResult.#ctor*
+  commentId: Overload:MyApp.Application.Services.EvaluationResult.#ctor
+  href: MyApp.Application.Services.EvaluationResult.html#MyApp_Application_Services_EvaluationResult__ctor_System_String_System_Decimal_System_TimeSpan_
+  name: EvaluationResult
+  nameWithType: EvaluationResult.EvaluationResult
+  fullName: MyApp.Application.Services.EvaluationResult.EvaluationResult
+  nameWithType.vb: EvaluationResult.New
+  fullName.vb: MyApp.Application.Services.EvaluationResult.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: MyApp.Application.Services.EvaluationResult.Expression*
+  commentId: Overload:MyApp.Application.Services.EvaluationResult.Expression
+  href: MyApp.Application.Services.EvaluationResult.html#MyApp_Application_Services_EvaluationResult_Expression
+  name: Expression
+  nameWithType: EvaluationResult.Expression
+  fullName: MyApp.Application.Services.EvaluationResult.Expression
+- uid: MyApp.Application.Services.EvaluationResult.Result*
+  commentId: Overload:MyApp.Application.Services.EvaluationResult.Result
+  href: MyApp.Application.Services.EvaluationResult.html#MyApp_Application_Services_EvaluationResult_Result
+  name: Result
+  nameWithType: EvaluationResult.Result
+  fullName: MyApp.Application.Services.EvaluationResult.Result
+- uid: MyApp.Application.Services.EvaluationResult.Elapsed*
+  commentId: Overload:MyApp.Application.Services.EvaluationResult.Elapsed
+  href: MyApp.Application.Services.EvaluationResult.html#MyApp_Application_Services_EvaluationResult_Elapsed
+  name: Elapsed
+  nameWithType: EvaluationResult.Elapsed
+  fullName: MyApp.Application.Services.EvaluationResult.Elapsed

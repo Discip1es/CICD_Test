@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Entities
+  commentId: N:MyApp.Domain.Entities
+  id: MyApp.Domain.Entities
+  children:
+  - MyApp.Domain.Entities.CalculationRecord
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Domain.Entities
+  nameWithType: MyApp.Domain.Entities
+  fullName: MyApp.Domain.Entities
+  type: Namespace
+  assemblies:
+  - MyApp.Domain
+references:
+- uid: MyApp.Domain.Entities.CalculationRecord
+  commentId: T:MyApp.Domain.Entities.CalculationRecord
+  parent: MyApp.Domain.Entities
+  href: MyApp.Domain.Entities.CalculationRecord.html
+  name: CalculationRecord
+  nameWithType: CalculationRecord
+  fullName: MyApp.Domain.Entities.CalculationRecord
+- uid: MyApp.Domain.Entities
+  commentId: N:MyApp.Domain.Entities
+  href: MyApp.html
+  name: MyApp.Domain.Entities
+  nameWithType: MyApp.Domain.Entities
+  fullName: MyApp.Domain.Entities
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html

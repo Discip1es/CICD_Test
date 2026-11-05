@@ -1,0 +1,408 @@
+{
+  "source_base_path": "C:/Users/Alexander/source/CICD_Test",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.ApiErrorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.ApiErrorHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.CalculatorEndpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.CalculatorEndpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.EvaluateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.EvaluateRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.EvaluateResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.EvaluateResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.HistoryItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.HistoryItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.TokenDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.TokenDto.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.TokenizeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.TokenizeRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.Endpoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Api.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Abstractions.ICalculationHistoryStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Abstractions.ICalculationHistoryStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Abstractions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Abstractions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Services.CalculatorService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Services.CalculatorService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Services.EvaluationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Services.EvaluationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Services.InMemoryCalculationHistoryStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Services.InMemoryCalculationHistoryStore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Application.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Application.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Cli.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Cli.Program.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Cli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Cli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Entities.CalculationRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Entities.CalculationRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Entities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Exceptions.DivisionByZeroException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Exceptions.DivisionByZeroException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Exceptions.DomainException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Exceptions.DomainException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Exceptions.InvalidExpressionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Exceptions.InvalidExpressionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Exceptions.OverflowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Exceptions.OverflowException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Parsing.ExpressionParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Parsing.ExpressionParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Parsing.ExpressionTokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Parsing.ExpressionTokenizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Parsing.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Parsing.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Parsing.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Parsing.TokenType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.Parsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.Parsing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.ValueObjects.Money.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.ValueObjects.Money.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApp.Domain.ValueObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApp.Domain.ValueObjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

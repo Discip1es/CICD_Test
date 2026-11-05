@@ -1,0 +1,105 @@
+### YamlMime:TableOfContent
+items:
+- uid: MyApp.Api
+  name: MyApp.Api
+  type: Namespace
+  items:
+  - uid: MyApp.Api.ApiErrorHandler
+    name: ApiErrorHandler
+    type: Class
+- uid: MyApp.Api.Endpoints
+  name: MyApp.Api.Endpoints
+  type: Namespace
+  items:
+  - uid: MyApp.Api.Endpoints.CalculatorEndpoints
+    name: CalculatorEndpoints
+    type: Class
+  - uid: MyApp.Api.Endpoints.EvaluateRequest
+    name: EvaluateRequest
+    type: Class
+  - uid: MyApp.Api.Endpoints.EvaluateResponse
+    name: EvaluateResponse
+    type: Class
+  - uid: MyApp.Api.Endpoints.HistoryItem
+    name: HistoryItem
+    type: Class
+  - uid: MyApp.Api.Endpoints.TokenDto
+    name: TokenDto
+    type: Class
+  - uid: MyApp.Api.Endpoints.TokenizeRequest
+    name: TokenizeRequest
+    type: Class
+- uid: MyApp.Application.Abstractions
+  name: MyApp.Application.Abstractions
+  type: Namespace
+  items:
+  - uid: MyApp.Application.Abstractions.ICalculationHistoryStore
+    name: ICalculationHistoryStore
+    type: Interface
+- uid: MyApp.Application.Services
+  name: MyApp.Application.Services
+  type: Namespace
+  items:
+  - uid: MyApp.Application.Services.CalculatorService
+    name: CalculatorService
+    type: Class
+  - uid: MyApp.Application.Services.EvaluationResult
+    name: EvaluationResult
+    type: Class
+  - uid: MyApp.Application.Services.InMemoryCalculationHistoryStore
+    name: InMemoryCalculationHistoryStore
+    type: Class
+- uid: MyApp.Cli
+  name: MyApp.Cli
+  type: Namespace
+  items:
+  - uid: MyApp.Cli.Program
+    name: Program
+    type: Class
+- uid: MyApp.Domain.Entities
+  name: MyApp.Domain.Entities
+  type: Namespace
+  items:
+  - uid: MyApp.Domain.Entities.CalculationRecord
+    name: CalculationRecord
+    type: Class
+- uid: MyApp.Domain.Exceptions
+  name: MyApp.Domain.Exceptions
+  type: Namespace
+  items:
+  - uid: MyApp.Domain.Exceptions.DivisionByZeroException
+    name: DivisionByZeroException
+    type: Class
+  - uid: MyApp.Domain.Exceptions.DomainException
+    name: DomainException
+    type: Class
+  - uid: MyApp.Domain.Exceptions.InvalidExpressionException
+    name: InvalidExpressionException
+    type: Class
+  - uid: MyApp.Domain.Exceptions.OverflowException
+    name: OverflowException
+    type: Class
+- uid: MyApp.Domain.Parsing
+  name: MyApp.Domain.Parsing
+  type: Namespace
+  items:
+  - uid: MyApp.Domain.Parsing.ExpressionParser
+    name: ExpressionParser
+    type: Class
+  - uid: MyApp.Domain.Parsing.ExpressionTokenizer
+    name: ExpressionTokenizer
+    type: Class
+  - uid: MyApp.Domain.Parsing.Token
+    name: Token
+    type: Struct
+  - uid: MyApp.Domain.Parsing.TokenType
+    name: TokenType
+    type: Enum
+- uid: MyApp.Domain.ValueObjects
+  name: MyApp.Domain.ValueObjects
+  type: Namespace
+  items:
+  - uid: MyApp.Domain.ValueObjects.Money
+    name: Money
+    type: Struct
+memberLayout: SamePage

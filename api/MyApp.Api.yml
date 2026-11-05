@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Api
+  commentId: N:MyApp.Api
+  id: MyApp.Api
+  children:
+  - MyApp.Api.ApiErrorHandler
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Api
+  nameWithType: MyApp.Api
+  fullName: MyApp.Api
+  type: Namespace
+  assemblies:
+  - MyApp.Api
+references:
+- uid: MyApp.Api.ApiErrorHandler
+  commentId: T:MyApp.Api.ApiErrorHandler
+  href: MyApp.Api.ApiErrorHandler.html
+  name: ApiErrorHandler
+  nameWithType: ApiErrorHandler
+  fullName: MyApp.Api.ApiErrorHandler

@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Api.Endpoints
+  commentId: N:MyApp.Api.Endpoints
+  id: MyApp.Api.Endpoints
+  children:
+  - MyApp.Api.Endpoints.CalculatorEndpoints
+  - MyApp.Api.Endpoints.EvaluateRequest
+  - MyApp.Api.Endpoints.EvaluateResponse
+  - MyApp.Api.Endpoints.HistoryItem
+  - MyApp.Api.Endpoints.TokenDto
+  - MyApp.Api.Endpoints.TokenizeRequest
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Api.Endpoints
+  nameWithType: MyApp.Api.Endpoints
+  fullName: MyApp.Api.Endpoints
+  type: Namespace
+  assemblies:
+  - MyApp.Api
+references:
+- uid: MyApp.Api.Endpoints.CalculatorEndpoints
+  commentId: T:MyApp.Api.Endpoints.CalculatorEndpoints
+  href: MyApp.Api.Endpoints.CalculatorEndpoints.html
+  name: CalculatorEndpoints
+  nameWithType: CalculatorEndpoints
+  fullName: MyApp.Api.Endpoints.CalculatorEndpoints
+- uid: MyApp.Api.Endpoints.EvaluateRequest
+  commentId: T:MyApp.Api.Endpoints.EvaluateRequest
+  href: MyApp.Api.Endpoints.EvaluateRequest.html
+  name: EvaluateRequest
+  nameWithType: EvaluateRequest
+  fullName: MyApp.Api.Endpoints.EvaluateRequest
+- uid: MyApp.Api.Endpoints.EvaluateResponse
+  commentId: T:MyApp.Api.Endpoints.EvaluateResponse
+  href: MyApp.Api.Endpoints.EvaluateResponse.html
+  name: EvaluateResponse
+  nameWithType: EvaluateResponse
+  fullName: MyApp.Api.Endpoints.EvaluateResponse
+- uid: MyApp.Api.Endpoints.HistoryItem
+  commentId: T:MyApp.Api.Endpoints.HistoryItem
+  href: MyApp.Api.Endpoints.HistoryItem.html
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: MyApp.Api.Endpoints.HistoryItem
+- uid: MyApp.Api.Endpoints.TokenizeRequest
+  commentId: T:MyApp.Api.Endpoints.TokenizeRequest
+  href: MyApp.Api.Endpoints.TokenizeRequest.html
+  name: TokenizeRequest
+  nameWithType: TokenizeRequest
+  fullName: MyApp.Api.Endpoints.TokenizeRequest
+- uid: MyApp.Api.Endpoints.TokenDto
+  commentId: T:MyApp.Api.Endpoints.TokenDto
+  href: MyApp.Api.Endpoints.TokenDto.html
+  name: TokenDto
+  nameWithType: TokenDto
+  fullName: MyApp.Api.Endpoints.TokenDto

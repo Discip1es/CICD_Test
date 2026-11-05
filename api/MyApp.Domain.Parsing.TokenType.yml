@@ -1,0 +1,336 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Parsing.TokenType
+  commentId: T:MyApp.Domain.Parsing.TokenType
+  id: TokenType
+  parent: MyApp.Domain.Parsing
+  children:
+  - MyApp.Domain.Parsing.TokenType.Divide
+  - MyApp.Domain.Parsing.TokenType.End
+  - MyApp.Domain.Parsing.TokenType.LParen
+  - MyApp.Domain.Parsing.TokenType.Minus
+  - MyApp.Domain.Parsing.TokenType.Modulo
+  - MyApp.Domain.Parsing.TokenType.Multiply
+  - MyApp.Domain.Parsing.TokenType.Number
+  - MyApp.Domain.Parsing.TokenType.Plus
+  - MyApp.Domain.Parsing.TokenType.Power
+  - MyApp.Domain.Parsing.TokenType.RParen
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: TokenType
+  fullName: MyApp.Domain.Parsing.TokenType
+  type: Enum
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: TokenType
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 5
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public enum TokenType
+    content.vb: Public Enum TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Number
+  commentId: F:MyApp.Domain.Parsing.TokenType.Number
+  id: Number
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: TokenType.Number
+  fullName: MyApp.Domain.Parsing.TokenType.Number
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Number
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 7
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Number = 0
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Plus
+  commentId: F:MyApp.Domain.Parsing.TokenType.Plus
+  id: Plus
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Plus
+  nameWithType: TokenType.Plus
+  fullName: MyApp.Domain.Parsing.TokenType.Plus
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Plus
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 8
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Plus = 1
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Minus
+  commentId: F:MyApp.Domain.Parsing.TokenType.Minus
+  id: Minus
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Minus
+  nameWithType: TokenType.Minus
+  fullName: MyApp.Domain.Parsing.TokenType.Minus
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Minus
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 9
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Minus = 2
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Multiply
+  commentId: F:MyApp.Domain.Parsing.TokenType.Multiply
+  id: Multiply
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Multiply
+  nameWithType: TokenType.Multiply
+  fullName: MyApp.Domain.Parsing.TokenType.Multiply
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Multiply
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 10
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Multiply = 3
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Divide
+  commentId: F:MyApp.Domain.Parsing.TokenType.Divide
+  id: Divide
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Divide
+  nameWithType: TokenType.Divide
+  fullName: MyApp.Domain.Parsing.TokenType.Divide
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Divide
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 11
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Divide = 4
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Modulo
+  commentId: F:MyApp.Domain.Parsing.TokenType.Modulo
+  id: Modulo
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Modulo
+  nameWithType: TokenType.Modulo
+  fullName: MyApp.Domain.Parsing.TokenType.Modulo
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Modulo
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 12
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Modulo = 5
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.Power
+  commentId: F:MyApp.Domain.Parsing.TokenType.Power
+  id: Power
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: Power
+  nameWithType: TokenType.Power
+  fullName: MyApp.Domain.Parsing.TokenType.Power
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Power
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 13
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: Power = 6
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.LParen
+  commentId: F:MyApp.Domain.Parsing.TokenType.LParen
+  id: LParen
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: LParen
+  nameWithType: TokenType.LParen
+  fullName: MyApp.Domain.Parsing.TokenType.LParen
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: LParen
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 14
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: LParen = 7
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.RParen
+  commentId: F:MyApp.Domain.Parsing.TokenType.RParen
+  id: RParen
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: RParen
+  nameWithType: TokenType.RParen
+  fullName: MyApp.Domain.Parsing.TokenType.RParen
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: RParen
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 15
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: RParen = 8
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+- uid: MyApp.Domain.Parsing.TokenType.End
+  commentId: F:MyApp.Domain.Parsing.TokenType.End
+  id: End
+  parent: MyApp.Domain.Parsing.TokenType
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: TokenType.End
+  fullName: MyApp.Domain.Parsing.TokenType.End
+  type: Field
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: End
+    path: src/MyApp.Domain/Parsing/ExpressionTokenizer.cs
+    startLine: 16
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: End = 9
+    return:
+      type: MyApp.Domain.Parsing.TokenType
+references:
+- uid: MyApp.Domain.Parsing
+  commentId: N:MyApp.Domain.Parsing
+  href: MyApp.html
+  name: MyApp.Domain.Parsing
+  nameWithType: MyApp.Domain.Parsing
+  fullName: MyApp.Domain.Parsing
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+- uid: MyApp.Domain.Parsing.TokenType
+  commentId: T:MyApp.Domain.Parsing.TokenType
+  parent: MyApp.Domain.Parsing
+  href: MyApp.Domain.Parsing.TokenType.html
+  name: TokenType
+  nameWithType: TokenType
+  fullName: MyApp.Domain.Parsing.TokenType

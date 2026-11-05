@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore
+  commentId: T:MyApp.Application.Abstractions.ICalculationHistoryStore
+  id: ICalculationHistoryStore
+  parent: MyApp.Application.Abstractions
+  children:
+  - MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync(MyApp.Domain.Entities.CalculationRecord,System.Threading.CancellationToken)
+  - MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync(System.Threading.CancellationToken)
+  - MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+  - MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ICalculationHistoryStore
+  nameWithType: ICalculationHistoryStore
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore
+  type: Interface
+  source:
+    remote:
+      path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ICalculationHistoryStore
+    path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+    startLine: 8
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Abstractions
+  summary: >-
+    Storage-agnostic contract for persisting calculation history.
+
+    Implemented in-memory for tests/dev, could be backed by a DB later.
+  example: []
+  syntax:
+    content: public interface ICalculationHistoryStore
+    content.vb: Public Interface ICalculationHistoryStore
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync(System.Threading.CancellationToken)
+  commentId: M:MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync(System.Threading.CancellationToken)
+  id: GetAllAsync(System.Threading.CancellationToken)
+  parent: MyApp.Application.Abstractions.ICalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(CancellationToken)
+  nameWithType: ICalculationHistoryStore.GetAllAsync(CancellationToken)
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: GetAllAsync
+    path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+    startLine: 10
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Abstractions
+  syntax:
+    content: Task<IReadOnlyList<CalculationRecord>> GetAllAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IReadOnlyList{MyApp.Domain.Entities.CalculationRecord}}
+    content.vb: Function GetAllAsync(cancellationToken As CancellationToken = Nothing) As Task(Of IReadOnlyList(Of CalculationRecord))
+  overload: MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync*
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync(MyApp.Domain.Entities.CalculationRecord,System.Threading.CancellationToken)
+  commentId: M:MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync(MyApp.Domain.Entities.CalculationRecord,System.Threading.CancellationToken)
+  id: AddAsync(MyApp.Domain.Entities.CalculationRecord,System.Threading.CancellationToken)
+  parent: MyApp.Application.Abstractions.ICalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: AddAsync(CalculationRecord, CancellationToken)
+  nameWithType: ICalculationHistoryStore.AddAsync(CalculationRecord, CancellationToken)
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync(MyApp.Domain.Entities.CalculationRecord, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: AddAsync
+    path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+    startLine: 12
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Abstractions
+  syntax:
+    content: Task AddAsync(CalculationRecord record, CancellationToken cancellationToken = default)
+    parameters:
+    - id: record
+      type: MyApp.Domain.Entities.CalculationRecord
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddAsync(record As CalculationRecord, cancellationToken As CancellationToken = Nothing) As Task
+  overload: MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync*
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync(System.Threading.CancellationToken)
+  commentId: M:MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync(System.Threading.CancellationToken)
+  id: ClearAsync(System.Threading.CancellationToken)
+  parent: MyApp.Application.Abstractions.ICalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: ClearAsync(CancellationToken)
+  nameWithType: ICalculationHistoryStore.ClearAsync(CancellationToken)
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ClearAsync
+    path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+    startLine: 14
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Abstractions
+  syntax:
+    content: Task ClearAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function ClearAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync*
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+  commentId: P:MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+  id: Count
+  parent: MyApp.Application.Abstractions.ICalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: ICalculationHistoryStore.Count
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Count
+    path: src/MyApp.Application/Abstractions/ICalculationHistoryStore.cs
+    startLine: 16
+  assemblies:
+  - MyApp.Application
+  namespace: MyApp.Application.Abstractions
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: MyApp.Application.Abstractions.ICalculationHistoryStore.Count*
+references:
+- uid: MyApp.Application.Abstractions
+  commentId: N:MyApp.Application.Abstractions
+  href: MyApp.html
+  name: MyApp.Application.Abstractions
+  nameWithType: MyApp.Application.Abstractions
+  fullName: MyApp.Application.Abstractions
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Abstractions
+    name: Abstractions
+    href: MyApp.Application.Abstractions.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Abstractions
+    name: Abstractions
+    href: MyApp.Application.Abstractions.html
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync*
+  commentId: Overload:MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync
+  href: MyApp.Application.Abstractions.ICalculationHistoryStore.html#MyApp_Application_Abstractions_ICalculationHistoryStore_GetAllAsync_System_Threading_CancellationToken_
+  name: GetAllAsync
+  nameWithType: ICalculationHistoryStore.GetAllAsync
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.GetAllAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IReadOnlyList{MyApp.Domain.Entities.CalculationRecord}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IReadOnlyList{MyApp.Domain.Entities.CalculationRecord}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IReadOnlyList<CalculationRecord>>
+  nameWithType: Task<IReadOnlyList<CalculationRecord>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IReadOnlyList<MyApp.Domain.Entities.CalculationRecord>>
+  nameWithType.vb: Task(Of IReadOnlyList(Of CalculationRecord))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IReadOnlyList(Of MyApp.Domain.Entities.CalculationRecord))
+  name.vb: Task(Of IReadOnlyList(Of CalculationRecord))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: MyApp.Domain.Entities.CalculationRecord
+    name: CalculationRecord
+    href: MyApp.Domain.Entities.CalculationRecord.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Domain.Entities.CalculationRecord
+    name: CalculationRecord
+    href: MyApp.Domain.Entities.CalculationRecord.html
+  - name: )
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync*
+  commentId: Overload:MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync
+  href: MyApp.Application.Abstractions.ICalculationHistoryStore.html#MyApp_Application_Abstractions_ICalculationHistoryStore_AddAsync_MyApp_Domain_Entities_CalculationRecord_System_Threading_CancellationToken_
+  name: AddAsync
+  nameWithType: ICalculationHistoryStore.AddAsync
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.AddAsync
+- uid: MyApp.Domain.Entities.CalculationRecord
+  commentId: T:MyApp.Domain.Entities.CalculationRecord
+  parent: MyApp.Domain.Entities
+  href: MyApp.Domain.Entities.CalculationRecord.html
+  name: CalculationRecord
+  nameWithType: CalculationRecord
+  fullName: MyApp.Domain.Entities.CalculationRecord
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: MyApp.Domain.Entities
+  commentId: N:MyApp.Domain.Entities
+  href: MyApp.html
+  name: MyApp.Domain.Entities
+  nameWithType: MyApp.Domain.Entities
+  fullName: MyApp.Domain.Entities
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Entities
+    name: Entities
+    href: MyApp.Domain.Entities.html
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync*
+  commentId: Overload:MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync
+  href: MyApp.Application.Abstractions.ICalculationHistoryStore.html#MyApp_Application_Abstractions_ICalculationHistoryStore_ClearAsync_System_Threading_CancellationToken_
+  name: ClearAsync
+  nameWithType: ICalculationHistoryStore.ClearAsync
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.ClearAsync
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore.Count*
+  commentId: Overload:MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+  href: MyApp.Application.Abstractions.ICalculationHistoryStore.html#MyApp_Application_Abstractions_ICalculationHistoryStore_Count
+  name: Count
+  nameWithType: ICalculationHistoryStore.Count
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

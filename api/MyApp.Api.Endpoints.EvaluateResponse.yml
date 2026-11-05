@@ -1,0 +1,531 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Api.Endpoints.EvaluateResponse
+  commentId: T:MyApp.Api.Endpoints.EvaluateResponse
+  id: EvaluateResponse
+  parent: MyApp.Api.Endpoints
+  children:
+  - MyApp.Api.Endpoints.EvaluateResponse.#ctor(System.String,System.Decimal,System.Double)
+  - MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs
+  - MyApp.Api.Endpoints.EvaluateResponse.Expression
+  - MyApp.Api.Endpoints.EvaluateResponse.Result
+  langs:
+  - csharp
+  - vb
+  name: EvaluateResponse
+  nameWithType: EvaluateResponse
+  fullName: MyApp.Api.Endpoints.EvaluateResponse
+  type: Class
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: EvaluateResponse
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 60
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: 'public sealed record EvaluateResponse : IEquatable<EvaluateResponse>'
+    content.vb: Public NotInheritable Class EvaluateResponse Implements IEquatable(Of EvaluateResponse)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{MyApp.Api.Endpoints.EvaluateResponse}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MyApp.Api.Endpoints.EvaluateResponse.#ctor(System.String,System.Decimal,System.Double)
+  commentId: M:MyApp.Api.Endpoints.EvaluateResponse.#ctor(System.String,System.Decimal,System.Double)
+  id: '#ctor(System.String,System.Decimal,System.Double)'
+  parent: MyApp.Api.Endpoints.EvaluateResponse
+  langs:
+  - csharp
+  - vb
+  name: EvaluateResponse(string, decimal, double)
+  nameWithType: EvaluateResponse.EvaluateResponse(string, decimal, double)
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.EvaluateResponse(string, decimal, double)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 60
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public EvaluateResponse(string Expression, decimal Result, double ElapsedMs)
+    parameters:
+    - id: Expression
+      type: System.String
+    - id: Result
+      type: System.Decimal
+    - id: ElapsedMs
+      type: System.Double
+    content.vb: Public Sub New(Expression As String, Result As Decimal, ElapsedMs As Double)
+  overload: MyApp.Api.Endpoints.EvaluateResponse.#ctor*
+  nameWithType.vb: EvaluateResponse.New(String, Decimal, Double)
+  fullName.vb: MyApp.Api.Endpoints.EvaluateResponse.New(String, Decimal, Double)
+  name.vb: New(String, Decimal, Double)
+- uid: MyApp.Api.Endpoints.EvaluateResponse.Expression
+  commentId: P:MyApp.Api.Endpoints.EvaluateResponse.Expression
+  id: Expression
+  parent: MyApp.Api.Endpoints.EvaluateResponse
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: EvaluateResponse.Expression
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.Expression
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Expression
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 60
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public string Expression { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Expression As String
+  overload: MyApp.Api.Endpoints.EvaluateResponse.Expression*
+- uid: MyApp.Api.Endpoints.EvaluateResponse.Result
+  commentId: P:MyApp.Api.Endpoints.EvaluateResponse.Result
+  id: Result
+  parent: MyApp.Api.Endpoints.EvaluateResponse
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: EvaluateResponse.Result
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.Result
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Result
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 60
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public decimal Result { get; init; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Result As Decimal
+  overload: MyApp.Api.Endpoints.EvaluateResponse.Result*
+- uid: MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs
+  commentId: P:MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs
+  id: ElapsedMs
+  parent: MyApp.Api.Endpoints.EvaluateResponse
+  langs:
+  - csharp
+  - vb
+  name: ElapsedMs
+  nameWithType: EvaluateResponse.ElapsedMs
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ElapsedMs
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 60
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public double ElapsedMs { get; init; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ElapsedMs As Double
+  overload: MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs*
+references:
+- uid: MyApp.Api.Endpoints
+  commentId: N:MyApp.Api.Endpoints
+  href: MyApp.html
+  name: MyApp.Api.Endpoints
+  nameWithType: MyApp.Api.Endpoints
+  fullName: MyApp.Api.Endpoints
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Api
+    name: Api
+    href: MyApp.Api.html
+  - name: .
+  - uid: MyApp.Api.Endpoints
+    name: Endpoints
+    href: MyApp.Api.Endpoints.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Api
+    name: Api
+    href: MyApp.Api.html
+  - name: .
+  - uid: MyApp.Api.Endpoints
+    name: Endpoints
+    href: MyApp.Api.Endpoints.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{MyApp.Api.Endpoints.EvaluateResponse}
+  commentId: T:System.IEquatable{MyApp.Api.Endpoints.EvaluateResponse}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<EvaluateResponse>
+  nameWithType: IEquatable<EvaluateResponse>
+  fullName: System.IEquatable<MyApp.Api.Endpoints.EvaluateResponse>
+  nameWithType.vb: IEquatable(Of EvaluateResponse)
+  fullName.vb: System.IEquatable(Of MyApp.Api.Endpoints.EvaluateResponse)
+  name.vb: IEquatable(Of EvaluateResponse)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: MyApp.Api.Endpoints.EvaluateResponse
+    name: EvaluateResponse
+    href: MyApp.Api.Endpoints.EvaluateResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Api.Endpoints.EvaluateResponse
+    name: EvaluateResponse
+    href: MyApp.Api.Endpoints.EvaluateResponse.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MyApp.Api.Endpoints.EvaluateResponse.#ctor*
+  commentId: Overload:MyApp.Api.Endpoints.EvaluateResponse.#ctor
+  href: MyApp.Api.Endpoints.EvaluateResponse.html#MyApp_Api_Endpoints_EvaluateResponse__ctor_System_String_System_Decimal_System_Double_
+  name: EvaluateResponse
+  nameWithType: EvaluateResponse.EvaluateResponse
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.EvaluateResponse
+  nameWithType.vb: EvaluateResponse.New
+  fullName.vb: MyApp.Api.Endpoints.EvaluateResponse.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: MyApp.Api.Endpoints.EvaluateResponse.Expression*
+  commentId: Overload:MyApp.Api.Endpoints.EvaluateResponse.Expression
+  href: MyApp.Api.Endpoints.EvaluateResponse.html#MyApp_Api_Endpoints_EvaluateResponse_Expression
+  name: Expression
+  nameWithType: EvaluateResponse.Expression
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.Expression
+- uid: MyApp.Api.Endpoints.EvaluateResponse.Result*
+  commentId: Overload:MyApp.Api.Endpoints.EvaluateResponse.Result
+  href: MyApp.Api.Endpoints.EvaluateResponse.html#MyApp_Api_Endpoints_EvaluateResponse_Result
+  name: Result
+  nameWithType: EvaluateResponse.Result
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.Result
+- uid: MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs*
+  commentId: Overload:MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs
+  href: MyApp.Api.Endpoints.EvaluateResponse.html#MyApp_Api_Endpoints_EvaluateResponse_ElapsedMs
+  name: ElapsedMs
+  nameWithType: EvaluateResponse.ElapsedMs
+  fullName: MyApp.Api.Endpoints.EvaluateResponse.ElapsedMs

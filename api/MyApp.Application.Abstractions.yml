@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Application.Abstractions
+  commentId: N:MyApp.Application.Abstractions
+  id: MyApp.Application.Abstractions
+  children:
+  - MyApp.Application.Abstractions.ICalculationHistoryStore
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Application.Abstractions
+  nameWithType: MyApp.Application.Abstractions
+  fullName: MyApp.Application.Abstractions
+  type: Namespace
+  assemblies:
+  - MyApp.Application
+references:
+- uid: MyApp.Application.Abstractions.ICalculationHistoryStore
+  commentId: T:MyApp.Application.Abstractions.ICalculationHistoryStore
+  parent: MyApp.Application.Abstractions
+  href: MyApp.Application.Abstractions.ICalculationHistoryStore.html
+  name: ICalculationHistoryStore
+  nameWithType: ICalculationHistoryStore
+  fullName: MyApp.Application.Abstractions.ICalculationHistoryStore
+- uid: MyApp.Application.Abstractions
+  commentId: N:MyApp.Application.Abstractions
+  href: MyApp.html
+  name: MyApp.Application.Abstractions
+  nameWithType: MyApp.Application.Abstractions
+  fullName: MyApp.Application.Abstractions
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Abstractions
+    name: Abstractions
+    href: MyApp.Application.Abstractions.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Application
+    name: Application
+    href: MyApp.Application.html
+  - name: .
+  - uid: MyApp.Application.Abstractions
+    name: Abstractions
+    href: MyApp.Application.Abstractions.html

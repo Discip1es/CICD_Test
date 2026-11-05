@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Cli
+  commentId: N:MyApp.Cli
+  id: MyApp.Cli
+  children:
+  - MyApp.Cli.Program
+  langs:
+  - csharp
+  - vb
+  name: MyApp.Cli
+  nameWithType: MyApp.Cli
+  fullName: MyApp.Cli
+  type: Namespace
+  assemblies:
+  - MyApp
+references:
+- uid: MyApp.Cli.Program
+  commentId: T:MyApp.Cli.Program
+  href: MyApp.Cli.Program.html
+  name: Program
+  nameWithType: Program
+  fullName: MyApp.Cli.Program

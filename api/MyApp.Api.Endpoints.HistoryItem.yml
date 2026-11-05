@@ -1,0 +1,574 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Api.Endpoints.HistoryItem
+  commentId: T:MyApp.Api.Endpoints.HistoryItem
+  id: HistoryItem
+  parent: MyApp.Api.Endpoints
+  children:
+  - MyApp.Api.Endpoints.HistoryItem.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  - MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc
+  - MyApp.Api.Endpoints.HistoryItem.Expression
+  - MyApp.Api.Endpoints.HistoryItem.Id
+  - MyApp.Api.Endpoints.HistoryItem.Result
+  langs:
+  - csharp
+  - vb
+  name: HistoryItem
+  nameWithType: HistoryItem
+  fullName: MyApp.Api.Endpoints.HistoryItem
+  type: Class
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: HistoryItem
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: 'public sealed record HistoryItem : IEquatable<HistoryItem>'
+    content.vb: Public NotInheritable Class HistoryItem Implements IEquatable(Of HistoryItem)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{MyApp.Api.Endpoints.HistoryItem}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MyApp.Api.Endpoints.HistoryItem.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  commentId: M:MyApp.Api.Endpoints.HistoryItem.#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)
+  id: '#ctor(System.Guid,System.String,System.Decimal,System.DateTimeOffset)'
+  parent: MyApp.Api.Endpoints.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: HistoryItem(Guid, string, decimal, DateTimeOffset)
+  nameWithType: HistoryItem.HistoryItem(Guid, string, decimal, DateTimeOffset)
+  fullName: MyApp.Api.Endpoints.HistoryItem.HistoryItem(System.Guid, string, decimal, System.DateTimeOffset)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public HistoryItem(Guid Id, string Expression, decimal Result, DateTimeOffset CreatedAtUtc)
+    parameters:
+    - id: Id
+      type: System.Guid
+    - id: Expression
+      type: System.String
+    - id: Result
+      type: System.Decimal
+    - id: CreatedAtUtc
+      type: System.DateTimeOffset
+    content.vb: Public Sub New(Id As Guid, Expression As String, Result As Decimal, CreatedAtUtc As DateTimeOffset)
+  overload: MyApp.Api.Endpoints.HistoryItem.#ctor*
+  nameWithType.vb: HistoryItem.New(Guid, String, Decimal, DateTimeOffset)
+  fullName.vb: MyApp.Api.Endpoints.HistoryItem.New(System.Guid, String, Decimal, System.DateTimeOffset)
+  name.vb: New(Guid, String, Decimal, DateTimeOffset)
+- uid: MyApp.Api.Endpoints.HistoryItem.Id
+  commentId: P:MyApp.Api.Endpoints.HistoryItem.Id
+  id: Id
+  parent: MyApp.Api.Endpoints.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: HistoryItem.Id
+  fullName: MyApp.Api.Endpoints.HistoryItem.Id
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Id
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public Guid Id { get; init; }
+    parameters: []
+    return:
+      type: System.Guid
+    content.vb: Public Property Id As Guid
+  overload: MyApp.Api.Endpoints.HistoryItem.Id*
+- uid: MyApp.Api.Endpoints.HistoryItem.Expression
+  commentId: P:MyApp.Api.Endpoints.HistoryItem.Expression
+  id: Expression
+  parent: MyApp.Api.Endpoints.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: HistoryItem.Expression
+  fullName: MyApp.Api.Endpoints.HistoryItem.Expression
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Expression
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public string Expression { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Expression As String
+  overload: MyApp.Api.Endpoints.HistoryItem.Expression*
+- uid: MyApp.Api.Endpoints.HistoryItem.Result
+  commentId: P:MyApp.Api.Endpoints.HistoryItem.Result
+  id: Result
+  parent: MyApp.Api.Endpoints.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: HistoryItem.Result
+  fullName: MyApp.Api.Endpoints.HistoryItem.Result
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Result
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public decimal Result { get; init; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Result As Decimal
+  overload: MyApp.Api.Endpoints.HistoryItem.Result*
+- uid: MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc
+  commentId: P:MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc
+  id: CreatedAtUtc
+  parent: MyApp.Api.Endpoints.HistoryItem
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtUtc
+  nameWithType: HistoryItem.CreatedAtUtc
+  fullName: MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc
+  type: Property
+  source:
+    remote:
+      path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: CreatedAtUtc
+    path: src/MyApp.Api/Endpoints/CalculatorEndpoints.cs
+    startLine: 62
+  assemblies:
+  - MyApp.Api
+  namespace: MyApp.Api.Endpoints
+  syntax:
+    content: public DateTimeOffset CreatedAtUtc { get; init; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public Property CreatedAtUtc As DateTimeOffset
+  overload: MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc*
+references:
+- uid: MyApp.Api.Endpoints
+  commentId: N:MyApp.Api.Endpoints
+  href: MyApp.html
+  name: MyApp.Api.Endpoints
+  nameWithType: MyApp.Api.Endpoints
+  fullName: MyApp.Api.Endpoints
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Api
+    name: Api
+    href: MyApp.Api.html
+  - name: .
+  - uid: MyApp.Api.Endpoints
+    name: Endpoints
+    href: MyApp.Api.Endpoints.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Api
+    name: Api
+    href: MyApp.Api.html
+  - name: .
+  - uid: MyApp.Api.Endpoints
+    name: Endpoints
+    href: MyApp.Api.Endpoints.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{MyApp.Api.Endpoints.HistoryItem}
+  commentId: T:System.IEquatable{MyApp.Api.Endpoints.HistoryItem}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<HistoryItem>
+  nameWithType: IEquatable<HistoryItem>
+  fullName: System.IEquatable<MyApp.Api.Endpoints.HistoryItem>
+  nameWithType.vb: IEquatable(Of HistoryItem)
+  fullName.vb: System.IEquatable(Of MyApp.Api.Endpoints.HistoryItem)
+  name.vb: IEquatable(Of HistoryItem)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: MyApp.Api.Endpoints.HistoryItem
+    name: HistoryItem
+    href: MyApp.Api.Endpoints.HistoryItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Api.Endpoints.HistoryItem
+    name: HistoryItem
+    href: MyApp.Api.Endpoints.HistoryItem.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: MyApp.Api.Endpoints.HistoryItem.#ctor*
+  commentId: Overload:MyApp.Api.Endpoints.HistoryItem.#ctor
+  href: MyApp.Api.Endpoints.HistoryItem.html#MyApp_Api_Endpoints_HistoryItem__ctor_System_Guid_System_String_System_Decimal_System_DateTimeOffset_
+  name: HistoryItem
+  nameWithType: HistoryItem.HistoryItem
+  fullName: MyApp.Api.Endpoints.HistoryItem.HistoryItem
+  nameWithType.vb: HistoryItem.New
+  fullName.vb: MyApp.Api.Endpoints.HistoryItem.New
+  name.vb: New
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetimeoffset
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: MyApp.Api.Endpoints.HistoryItem.Id*
+  commentId: Overload:MyApp.Api.Endpoints.HistoryItem.Id
+  href: MyApp.Api.Endpoints.HistoryItem.html#MyApp_Api_Endpoints_HistoryItem_Id
+  name: Id
+  nameWithType: HistoryItem.Id
+  fullName: MyApp.Api.Endpoints.HistoryItem.Id
+- uid: MyApp.Api.Endpoints.HistoryItem.Expression*
+  commentId: Overload:MyApp.Api.Endpoints.HistoryItem.Expression
+  href: MyApp.Api.Endpoints.HistoryItem.html#MyApp_Api_Endpoints_HistoryItem_Expression
+  name: Expression
+  nameWithType: HistoryItem.Expression
+  fullName: MyApp.Api.Endpoints.HistoryItem.Expression
+- uid: MyApp.Api.Endpoints.HistoryItem.Result*
+  commentId: Overload:MyApp.Api.Endpoints.HistoryItem.Result
+  href: MyApp.Api.Endpoints.HistoryItem.html#MyApp_Api_Endpoints_HistoryItem_Result
+  name: Result
+  nameWithType: HistoryItem.Result
+  fullName: MyApp.Api.Endpoints.HistoryItem.Result
+- uid: MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc*
+  commentId: Overload:MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc
+  href: MyApp.Api.Endpoints.HistoryItem.html#MyApp_Api_Endpoints_HistoryItem_CreatedAtUtc
+  name: CreatedAtUtc
+  nameWithType: HistoryItem.CreatedAtUtc
+  fullName: MyApp.Api.Endpoints.HistoryItem.CreatedAtUtc

@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApp.Domain.Parsing.ExpressionParser
+  commentId: T:MyApp.Domain.Parsing.ExpressionParser
+  id: ExpressionParser
+  parent: MyApp.Domain.Parsing
+  children:
+  - MyApp.Domain.Parsing.ExpressionParser.#ctor(System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token})
+  - MyApp.Domain.Parsing.ExpressionParser.Evaluate(System.String)
+  - MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd
+  langs:
+  - csharp
+  - vb
+  name: ExpressionParser
+  nameWithType: ExpressionParser
+  fullName: MyApp.Domain.Parsing.ExpressionParser
+  type: Class
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ExpressionParser
+    path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+    startLine: 16
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  summary: >-
+    Recursive-descent parser + evaluator for arithmetic expressions.
+
+
+    Grammar:
+      expression := term (('+' | '-') term)*
+      term       := factorWithPower (('*' | '/' | '%') factorWithPower)*
+      factorWithPower := atom ('^' factorWithPower)?   // right-associative power
+      atom       := ['+' | '-'] (number | '(' expression ')')
+
+    Overflow in any operation raises <xref href="MyApp.Domain.Exceptions.OverflowException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public sealed class ExpressionParser
+    content.vb: Public NotInheritable Class ExpressionParser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MyApp.Domain.Parsing.ExpressionParser.#ctor(System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token})
+  commentId: M:MyApp.Domain.Parsing.ExpressionParser.#ctor(System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token})
+  id: '#ctor(System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token})'
+  parent: MyApp.Domain.Parsing.ExpressionParser
+  langs:
+  - csharp
+  - vb
+  name: ExpressionParser(IReadOnlyList<Token>)
+  nameWithType: ExpressionParser.ExpressionParser(IReadOnlyList<Token>)
+  fullName: MyApp.Domain.Parsing.ExpressionParser.ExpressionParser(System.Collections.Generic.IReadOnlyList<MyApp.Domain.Parsing.Token>)
+  type: Constructor
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: .ctor
+    path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+    startLine: 23
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public ExpressionParser(IReadOnlyList<Token> tokens)
+    parameters:
+    - id: tokens
+      type: System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token}
+    content.vb: Public Sub New(tokens As IReadOnlyList(Of Token))
+  overload: MyApp.Domain.Parsing.ExpressionParser.#ctor*
+  nameWithType.vb: ExpressionParser.New(IReadOnlyList(Of Token))
+  fullName.vb: MyApp.Domain.Parsing.ExpressionParser.New(System.Collections.Generic.IReadOnlyList(Of MyApp.Domain.Parsing.Token))
+  name.vb: New(IReadOnlyList(Of Token))
+- uid: MyApp.Domain.Parsing.ExpressionParser.Evaluate(System.String)
+  commentId: M:MyApp.Domain.Parsing.ExpressionParser.Evaluate(System.String)
+  id: Evaluate(System.String)
+  parent: MyApp.Domain.Parsing.ExpressionParser
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(string)
+  nameWithType: ExpressionParser.Evaluate(string)
+  fullName: MyApp.Domain.Parsing.ExpressionParser.Evaluate(string)
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: Evaluate
+    path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+    startLine: 28
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public static decimal Evaluate(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+    return:
+      type: System.Decimal
+    content.vb: Public Shared Function Evaluate(expression As String) As Decimal
+  overload: MyApp.Domain.Parsing.ExpressionParser.Evaluate*
+  nameWithType.vb: ExpressionParser.Evaluate(String)
+  fullName.vb: MyApp.Domain.Parsing.ExpressionParser.Evaluate(String)
+  name.vb: Evaluate(String)
+- uid: MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd
+  commentId: M:MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd
+  id: ParseAndExpectEnd
+  parent: MyApp.Domain.Parsing.ExpressionParser
+  langs:
+  - csharp
+  - vb
+  name: ParseAndExpectEnd()
+  nameWithType: ExpressionParser.ParseAndExpectEnd()
+  fullName: MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd()
+  type: Method
+  source:
+    remote:
+      path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+      branch: main
+      repo: https://github.com/Discip1es/CICD_Test.git
+    id: ParseAndExpectEnd
+    path: src/MyApp.Domain/Parsing/ExpressionParser.cs
+    startLine: 38
+  assemblies:
+  - MyApp.Domain
+  namespace: MyApp.Domain.Parsing
+  syntax:
+    content: public decimal ParseAndExpectEnd()
+    return:
+      type: System.Decimal
+    content.vb: Public Function ParseAndExpectEnd() As Decimal
+  overload: MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd*
+references:
+- uid: MyApp.Domain.Exceptions.OverflowException
+  commentId: T:MyApp.Domain.Exceptions.OverflowException
+  href: MyApp.Domain.Exceptions.OverflowException.html
+  name: OverflowException
+  nameWithType: OverflowException
+  fullName: MyApp.Domain.Exceptions.OverflowException
+- uid: MyApp.Domain.Parsing
+  commentId: N:MyApp.Domain.Parsing
+  href: MyApp.html
+  name: MyApp.Domain.Parsing
+  nameWithType: MyApp.Domain.Parsing
+  fullName: MyApp.Domain.Parsing
+  spec.csharp:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+  spec.vb:
+  - uid: MyApp
+    name: MyApp
+    href: MyApp.html
+  - name: .
+  - uid: MyApp.Domain
+    name: Domain
+    href: MyApp.Domain.html
+  - name: .
+  - uid: MyApp.Domain.Parsing
+    name: Parsing
+    href: MyApp.Domain.Parsing.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MyApp.Domain.Parsing.ExpressionParser.#ctor*
+  commentId: Overload:MyApp.Domain.Parsing.ExpressionParser.#ctor
+  href: MyApp.Domain.Parsing.ExpressionParser.html#MyApp_Domain_Parsing_ExpressionParser__ctor_System_Collections_Generic_IReadOnlyList_MyApp_Domain_Parsing_Token__
+  name: ExpressionParser
+  nameWithType: ExpressionParser.ExpressionParser
+  fullName: MyApp.Domain.Parsing.ExpressionParser.ExpressionParser
+  nameWithType.vb: ExpressionParser.New
+  fullName.vb: MyApp.Domain.Parsing.ExpressionParser.New
+  name.vb: New
+- uid: System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token}
+  commentId: T:System.Collections.Generic.IReadOnlyList{MyApp.Domain.Parsing.Token}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Token>
+  nameWithType: IReadOnlyList<Token>
+  fullName: System.Collections.Generic.IReadOnlyList<MyApp.Domain.Parsing.Token>
+  nameWithType.vb: IReadOnlyList(Of Token)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of MyApp.Domain.Parsing.Token)
+  name.vb: IReadOnlyList(Of Token)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: MyApp.Domain.Parsing.Token
+    name: Token
+    href: MyApp.Domain.Parsing.Token.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MyApp.Domain.Parsing.Token
+    name: Token
+    href: MyApp.Domain.Parsing.Token.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MyApp.Domain.Parsing.ExpressionParser.Evaluate*
+  commentId: Overload:MyApp.Domain.Parsing.ExpressionParser.Evaluate
+  href: MyApp.Domain.Parsing.ExpressionParser.html#MyApp_Domain_Parsing_ExpressionParser_Evaluate_System_String_
+  name: Evaluate
+  nameWithType: ExpressionParser.Evaluate
+  fullName: MyApp.Domain.Parsing.ExpressionParser.Evaluate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd*
+  commentId: Overload:MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd
+  href: MyApp.Domain.Parsing.ExpressionParser.html#MyApp_Domain_Parsing_ExpressionParser_ParseAndExpectEnd
+  name: ParseAndExpectEnd
+  nameWithType: ExpressionParser.ParseAndExpectEnd
+  fullName: MyApp.Domain.Parsing.ExpressionParser.ParseAndExpectEnd
